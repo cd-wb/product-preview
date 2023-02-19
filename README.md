@@ -27,8 +27,12 @@ Users should be able to:
 - Changing the image frome mobile to desktop 
 
 ### Screenshot
- 
+
+1. Desktop
+
 ![](./images/screenshot-descktop.png)
+
+2. Mobile
 
 ![](./images/screenshot-mobile.png)
 
