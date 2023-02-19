@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+:root{
+    --dc-color:hsl(158, 36%, 37%);
+    --cream-color:hsl(30, 38%, 92%);
+    --vdb-color:hsl(212, 21%, 14%);
+    --dgb-color:hsl(228, 12%, 48%);
+    --wt-color:hsl(0, 0%, 100%);
+
+    --srif-font:'Fraunces', serif;
+    --ssrif-font:'Montserrat', sans-serif;
+
+    --siz-font:2rem;
+
+}
+.flex-disp {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--cream-color);
+    margin: 1rem;
+    font-weight: 500;
+    display: grid;
+    place-content: center;
+}
+.product{
+    --siz-gap:1rem;
+    --siz-marg:1rem;
+    --siz-padd:1.5rem;
+
+    background-color: var(--wt-color);
+    border-radius: 0.5rem;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+    max-width: 600px;
+}
+@media (min-width:600px){
+    .product{
+        --siz-padd: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.p-content{
+    display: grid;
+    padding: var(--siz-padd);
+    gap: var(--siz-gap);
+}
+.c-categori{
+    font-family: var(--ssrif-font);
+    font-size: 0.7rem;
+    letter-spacing: 0.23rem;
+    text-transform: uppercase;
+    color: var(--dgb-color);
+}
+.c-title{
+    font-family: var(--srif-font);
+    line-height: 1.9rem;
+    color: var(--vdb-color);
+    font-size: var(--siz-font);
+}
+.c-descreption{
+    font-family: var(--ssrif-font);
+    font-size: 14px;
+    color: var(--dgb-color);
+    line-height: 1.45rem;
+}
+.c-price{
+    display: flex;
+    align-items: center;
+    gap: var(--siz-gap);
+}
+.price{
+    font-family: var(--srif-font);
+    color: var(--dc-color);
+    font-size: var(--siz-font);
+}
+.origin{
+    font-family: var(--ssrif-font);
+    color: var(--dgb-color);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.button{
+    cursor: pointer;
+    padding: 0.85rem 1.7rem;
+    border: 0;
+    background-color: var(--dc-color);
+    color: var(--wt-color);
+    font-weight: 700;
+    font-family: var(--ssrif-font);
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.button:is(:hover, :focus) {
+    background-color:hsl(157, 66%, 18%) ;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
