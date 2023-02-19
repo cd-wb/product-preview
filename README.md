@@ -32,6 +32,8 @@ Users should be able to:
 
 ![](./images/screenshot-descktop.png)
 
+---
+
 2. Mobile
 
 ![](./images/screenshot-mobile.png)
