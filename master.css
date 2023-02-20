@@ -105,4 +105,5 @@ body {
 img{
     max-width: 100%;
     display: block;
+    filter: brightness(0.95);
 }
