@@ -78,5 +78,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [codeWeb](https://www.frontendmentor.io/profile/kop-left)
+- Frontend Mentor - [Abdessamad](https://www.frontendmentor.io/profile/kop-left)
 
